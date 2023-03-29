@@ -2,7 +2,7 @@
 
 :information_source: &nbsp;This repo contains questions and exercises on various technical topics, sometimes related to DevOps and SRE
 
-:bar_chart: &nbsp;There are currently **2619** exercises and questions
+:bar_chart: &nbsp;There are currently **2624** exercises and questions
 
 :warning: &nbsp;You can use these for preparing for an interview but most of the questions and exercises don't represent an actual interview. Please read [FAQ page](faq.md) for more details
 
@@ -18,74 +18,82 @@
 <center>
 <table>
   <tr>
-    <td align="center"><a href="topics/devops"><img src="images/devops.png" width="75px;" height="75px;" alt="DevOps" /><br /><b>DevOps</b></a></td>
-    <td align="center"><a href="topics/cicd"><img src="images/cicd.png" width="75px;" height="75px;" alt="cicd"/><br /><b>CI/CD</b></a></td>
-    <td align="center"><a href="topics/git"><img src="images/git.png" width="75px;" height="75px;" alt="Git"/><br /><b>Git</b></a></td>
-    <td align="center"><a href="topics/ansible"><img src="images/ansible.png" width="75px;" height="75px;" alt="ansible"/><br /><b>Ansible</b></a></td>
+    <td align="center"><a href="topics/devops/README.md"><img src="images/devops.png" width="75px;" height="75px;" alt="DevOps" /><br /><b>DevOps</b></a></td>
+    <td align="center"><a href="topics/git/README.md"><img src="images/git.png" width="75px;" height="75px;" alt="Git"/><br /><b>Git</b></a></td>
     <td align="center"><a href="#network"><img src="images/network.png" width="75px;" height="75px;" alt="Network"/><br /><b>Network</b></a></td>
-   
-
+    <td align="center"><a href="#hardware"><img src="images/hardware.png" width="75px;" height="75px;" alt="Hardware"/><br /><b>Hardware</b></a></td>
+    <td align="center"><a href="topics/kubernetes/README.md"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
   </tr>
+
   <tr>
-    <td align="center"><a href="topics/software_development"><img src="images/programming.png" width="75px;" height="75px;" alt="programming"/><br /><b>Software Development</b></a></td>
+    <td align="center"><a href="topics/software_development/README.md"><img src="images/programming.png" width="75px;" height="75px;" alt="programming"/><br /><b>Software Development</b></a></td>
     <td align="center"><a href="https://github.com/bregman-arie/python-exercises"><img src="images/python.png" width="75px;" height="75px;" alt="Python"/><br /><b>Python</b></a></td>
     <td align="center"><a href="https://github.com/bregman-arie/go-exercises"><img src="images/Go.png" width="75px;" height="75px;" alt="go"/><br /><b>Go</b></a></td>
-    <td align="center"><a href="topics/shell"><img src="images/bash.png" width="75px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
-    <td align="center"><a href="topics/kubernetes"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a></td>
- 
-  </tr>
-  <tr>
-    <td align="center"><a href="topics/cloud"><img src="images/cloud.png" width="75px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
-    <td align="center"><a href="topics/aws"><img src="images/aws.png" width="100px;" height="75px;" alt="aws"/><br /><b>AWS</b></a></td>
-    <td align="center"><a href="topics/azure"><img src="images/azure.png" width="75px;" height="75px;" alt="azure"/><br /><b>Azure</b></a></td>
-    <td align="center"><a href="topics/gcp"><img src="images/googlecloud.png" width="70px;" height="70px;" alt="Google Cloud Platform"/><br /><b>Google Cloud Platform</b></a></td>
-    <td align="center"><a href="#openstack"><img src="images/openstack.png" width="75px;" height="75px;" alt="openstack"/><br /><b>OpenStack</b></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="#operating-system"><img src="images/os.png" width="75px;" height="75px;" alt="Operating System"/><br /><b>Operating System</b></a></td>
-    <td align="center"><a href="#monitoring"><img src="images/monitoring.png" width="75px;" height="75px;" alt="Monitoring"/><br /><b>Monitoring</b></a></td>
-    <td align="center"><a href="#elastic"><img src="images/elastic.png" width="75px;" height="75px;" alt="Elastic"/><br /><b>Elastic</b></a></td>
-    <td align="center"><a href="#virtualization"><img src="images/virtualization.png" width="75px;" height="75px;" alt="Virtualization"/><br /><b>Virtualization</b></a></td>
-    <td align="center"><a href="topics/dns"><img src="images/dns.png" width="75px;" height="75px;" alt="DNS"/><br /><b>DNS</b></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="#testing"><img src="images/testing.png" width="75px;" height="75px;" alt="Testing"/><br /><b>Testing</b></a></td>
-    <td align="center"><a href="#databases"><img src="images/databases.png" width="75px;" height="75px;" alt="Databases"/><br /><b>Databases</b></a></td>
+    <td align="center"><a href="topics/perl/README.md"><img src="images/perl.png" width="75px;" height="75px;" alt="perl"/><br /><b>Perl</b></a></td>
     <td align="center"><a href="#regex"><img src="images/regex.png" width="75px;" height="75px;" alt="RegEx"/><br /><b>Regex</b></a></td>
-    <td align="center"><a href="#system-design"><img src="images/design.png" width="75px;" height="75px;" alt="Design"/><br /><b>System Design</b></a></td>
-    <td align="center"><a href="#hardware"><img src="images/hardware.png" width="75px;" height="75px;" alt="Hardware"/><br /><b>Hardware</b></a></td>
   </tr>
+
   <tr>
-    <td align="center"><a href="#certificates"><img src="images/certificates.png" width="75px;" height="75px;" alt="Certificates"/><br /><b>Certificates</b></a></td>
-    <td align="center"><a href="topics/containers"><img src="images/containers.png" width="75px;" height="75px;" alt="Containers"/><br /><b>Containers</b></a></td>
-    <td align="center"><a href="#sql"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a></td>
-    <td align="center"><a href="topics/openshift"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
-    <td align="center"><a href="#storage"><img src="images/storage.png" width="75px;" height="75px;" alt="Storage"/><br /><b>Storage</b></a></td>
+      <td align="center"><a href="topics/cloud/README.md"><img src="images/cloud.png" width="75px;" height="75px;" alt="Cloud"/><br /><b>Cloud</b></a></td>
+      <td align="center"><a href="topics/aws/README.md"><img src="images/aws.png" width="100px;" height="75px;" alt="aws"/><br /><b>AWS</b></a></td>
+      <td align="center"><a href="topics/azure/README.md"><img src="images/azure.png" width="75px;" height="75px;" alt="azure"/><br /><b>Azure</b></a></td>
+      <td align="center"><a href="topics/gcp/README.md"><img src="images/googlecloud.png" width="70px;" height="70px;" alt="Google Cloud Platform"/><br /><b>Google Cloud Platform</b></a></td>
+      <td align="center"><a href="#openstack/README.md"><img src="images/openstack.png" width="75px;" height="75px;" alt="openstack"/><br /><b>OpenStack</b></a></td>
   </tr>
+
   <tr>
-      <td align="center"><a href="topics/terraform"><img src="images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
+      <td align="center"><a href="#operating-system"><img src="images/os.png" width="75px;" height="75px;" alt="Operating System"/><br /><b>Operating System</b></a></td>
+      <td align="center"><a href="topics/linux/README.md"><img src="images/logos/linux.png" width="75px;" height="75px;" alt="Linux"/><br /><b>Linux</b></a></td>
+      <td align="center"><a href="#virtualization"><img src="images/virtualization.png" width="75px;" height="75px;" alt="Virtualization"/><br /><b>Virtualization</b></a></td>
+      <td align="center"><a href="topics/dns/README.md"><img src="images/dns.png" width="75px;" height="75px;" alt="DNS"/><br /><b>DNS</b></a></td>
+      <td align="center"><a href="topics/shell/README.md"><img src="images/bash.png" width="75px;" height="75px;" alt="Bash"/><br /><b>Shell Scripting</b></a></td>
+  </tr>
+
+  <tr>
+      <td align="center"><a href="topics/databases/README.md"><img src="images/databases.png" width="75px;" height="75px;" alt="Databases"/><br /><b>Databases</b></a></td>
+      <td align="center"><a href="#sql"><img src="images/sql.png" width="75px;" height="75px;" alt="sql"/><br /><b>SQL</b></a></td>
       <td align="center"><a href="#mongo"><img src="images/mongo.png" width="75px;" height="75px;" alt="Mongo"/><br /><b>Mongo</b></a></td>
+      <td align="center"><a href="#testing"><img src="images/testing.png" width="75px;" height="75px;" alt="Testing"/><br /><b>Testing</b></a></td>
+      <td align="center"><a href="#big-data"><img src="images/big-data.png" width="75px;" height="75px;" alt="Big Data"/><br /><b>Big Data</b></a></td>
+
+  </tr>
+
+  <tr>
+      <td align="center"><a href="topics/cicd/README.md"><img src="images/cicd.png" width="75px;" height="75px;" alt="cicd"/><br /><b>CI/CD</b></a></td>
+      <td align="center"><a href="#certificates"><img src="images/certificates.png" width="75px;" height="75px;" alt="Certificates"/><br /><b>Certificates</b></a></td>
+      <td align="center"><a href="topics/containers/README.md"><img src="images/containers.png" width="75px;" height="75px;" alt="Containers"/><br /><b>Containers</b></a></td>
+      <td align="center"><a href="topics/openshift/README.md"><img src="images/openshift.png" width="75px;" height="75px;" alt="OpenShift"/><br /><b>OpenShift</b></a></td>
+      <td align="center"><a href="#storage"><img src="images/storage.png" width="75px;" height="75px;" alt="Storage"/><br /><b>Storage</b></a></td>
+  </tr>
+
+  <tr>
+      <td align="center"><a href="topics/terraform/README.md"><img src="images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a></td>
       <td align="center"><a href="#puppet"><img src="images/puppet.png" width="75px;" height="75px;" alt="puppet"/><br /><b>Puppet</b></a></td>
       <td align="center"><a href="#distributed"><img src="images/distributed.png" width="75px;" height="75px;" alt="Distributed"/><br /><b>Distributed</b></a></td>
       <td align="center"><a href="#questions-you-ask"><img src="images/you.png" width="75px;" height="75px;" alt="you"/><br /><b>Questions you can ask</b></a></td>
+      <td align="center"><a href="topics/ansible/README.md"><img src="images/ansible.png" width="75px;" height="75px;" alt="ansible"/><br /><b>Ansible</b></a></td>
   </tr>
+
   <tr>
-      <td align="center"><a href="topics/circleci"><img src="images/logos/circleci.png" width="70px;" height="70px;" alt="Circle CI"/><br /><b>Circle CI</b></a></td>
-      <td align="center"><a href="topics/argo"><img src="images/logos/argo.png" width="80px;" height="80px;" alt="Argo"/><br /><b>Argo</b></a></td>
-      <td align="center"><a href="topics/kafka"><img src="images/logos/kafka.png" width="85px;" height="80px;" alt="Kafka"/><br /><b>Kafka</b></a></td>
-      <td align="center"><a href="topics/datadog"><img src="images/logos/datadog.png" width="80px;" height="80px;" alt="DataDog"/><br /><b></b></a></td>
-      <td align="center"><a href="topics/perl"><img src="images/perl.png" width="75px;" height="75px;" alt="perl"/><br /><b>Perl</b></a></td>
+      <td align="center"><a href="topics/observability/README.md"><img src="images/observability.png" width="75px;" height="75px;" alt="observability"/><br /><b>Observability</b></a></td>
+      <td align="center"><a href="#prometheus"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
+      <td align="center"><a href="topics/circleci/README.md"><img src="images/logos/circleci.png" width="70px;" height="70px;" alt="Circle CI"/><br /><b>Circle CI</b></a></td>
+      <td align="center"><a href="topics/datadog/README.md"><img src="images/logos/datadog.png" width="80px;" height="80px;" alt="DataDog"/><br /><b></b></a></td>
+      <td align="center"><a href="topics/grafana/README.md"><img src="images/logos/grafana.png" width="80px;" height="80px;" alt="Grafana"/><br /><b>Grafana</b></a></td>
   </tr>
-   <tr>
-    <td align="center"><a href="topics/linux"><img src="images/logos/linux.png" width="75px;" height="75px;" alt="Linux"/><br /><b>Linux</b></a></td>
-    <td align="center"><a href="#prometheus"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a></td>
-    <td align="center"><a href="#big-data"><img src="images/big-data.png" width="75px;" height="75px;" alt="Big Data"/><br /><b>Big Data</b></a></td>
-    <td align="center"><a href="topics/soft_skills"><img src="images/HR.png" width="75px;" height="75px;" alt="HR"/><br /><b>Soft Skills</b></a></td>
-    <td align="center"><a href="topics/security"><img src="images/security.png" width="75px;" height="75px;" alt="security"/><br /><b>Security</b></a></td>
+
+  <tr>
+    <td align="center"><a href="topics/argo/README.md"><img src="images/logos/argo.png" width="80px;" height="80px;" alt="Argo"/><br /><b>Argo</b></a></td>
+    <td align="center"><a href="topics/soft_skills/README.md"><img src="images/HR.png" width="75px;" height="75px;" alt="HR"/><br /><b>Soft Skills</b></a></td>
+    <td align="center"><a href="topics/security/README.md"><img src="images/security.png" width="75px;" height="75px;" alt="security"/><br /><b>Security</b></a></td>
+    <td align="center"><a href="#system-design"><img src="images/design.png" width="75px;" height="75px;" alt="Design"/><br /><b>System Design</b></a></td>
    </tr>
+
    <tr>
-    <td align="center"><a href="topics/chaos_engineering"><img src="images/logos/chaos_engineering.png" width="75px;" height="75px;" alt="Chaos Engineering"/><br /><b>Chaos Engineering</b></a></td>
+    <td align="center"><a href="topics/chaos_engineering/README.md"><img src="images/logos/chaos_engineering.png" width="75px;" height="75px;" alt="Chaos Engineering"/><br /><b>Chaos Engineering</b></a></td>
     <td align="center"><a href="#Misc"><img src="images/general.png" width="75px;" height="75px;" alt="Misc"/><br /><b>Misc</b></a></td>
+    <td align="center"><a href="#elastic"><img src="images/elastic.png" width="75px;" height="75px;" alt="Elastic"/><br /><b>Elastic</b></a></td>
+    <td align="center"><a href="topics/kafka/README.md"><img src="images/logos/kafka.png" width="85px;" height="80px;" alt="Kafka"/><br /><b>Kafka</b></a></td>
    </tr>
    
 </table>
@@ -228,14 +236,21 @@ CSMA/CD algorithm:
   * switch
   * hub</summary><br><b>
 
+A router, switch, and hub are all network devices used to connect devices in a local area network (LAN). However, each device operates differently and has its specific use cases. Here is a brief description of each device and the differences between them:
+
+1. Router: is a network device that connects multiple network segments together. It operates at the network layer (Layer 3) of the OSI model and uses routing protocols to direct data between networks. Routers use IP addresses to identify devices and route data packets to the correct destination.
+2. Switch: is a network device that connects multiple devices on a LAN. It operates at the data link layer (Layer 2) of the OSI model and uses MAC addresses to identify devices and direct data packets to the correct destination. Switches allow devices on the same network to communicate with each other more efficiently and can prevent data collisions that can occur when multiple devices send data simultaneously.
+3. Hub: is a network device that connects multiple devices through a single cable and is used to connect multiple devices without segmenting a network. However, unlike a switch, it operates at the physical layer (Layer 1) of the OSI model and simply broadcasts data packets to all devices connected to it, regardless of whether the device is the intended recipient or not. This means that data collisions can occur, and the network's efficiency can suffer as a result. Hubs are generally not used in modern network setups, as switches are more efficient and provide better network performance.
 </b></details>
 
 <details>
 <summary>What is a "Collision Domain"?</summary><br><b>
+A collision domain is a network segment in which devices can potentially interfere with each other by attempting to transmit data at the same time. When two devices transmit data at the same time, it can cause a collision, resulting in lost or corrupted data. In a collision domain, all devices share the same bandwidth, and any device can potentially interfere with the transmission of data by other devices.
 </b></details>
 
 <details>
 <summary>What is a "Broadcast Domain"?</summary><br><b>
+A broadcast domain is a network segment in which all devices can communicate with each other by sending broadcast messages. A broadcast message is a message that is sent to all devices in a network rather than a specific device. In a broadcast domain, all devices can receive and process broadcast messages, regardless of whether the message was intended for them or not.
 </b></details>
 
 <details>
@@ -332,6 +347,11 @@ Systems keep an ARP look-up table where they store information about what IP add
 
 <details>
 <summary>What is TTL? What does it helps to prevent?</summary><br><b>
+
+- TTL (Time to Live) is a value in an IP (Internet Protocol) packet that determines how many hops or routers a packet can travel before it is discarded. Each time a packet is forwarded by a router, the TTL value is decreased by one. When the TTL value reaches zero, the packet is dropped, and an ICMP (Internet Control Message Protocol) message is sent back to the sender indicating that the packet has expired.
+- TTL is used to prevent packets from circulating indefinitely in the network, which can cause congestion and degrade network performance.
+- It also helps prevent packets from being trapped in routing loops, where packets continuously travel between the same set of routers without ever reaching their destination.
+- In addition, TTL can be used to help detect and prevent IP spoofing attacks, where an attacker attempts to impersonate another device on the network by using a false or fake IP address. By limiting the number of hops that a packet can travel, TTL can help prevent packets from being routed to destinations that are not legitimate.
 </b></details>
 
 <details>
@@ -349,22 +369,51 @@ Read more [here](https://linuxjourney.com/lesson/dhcp-overview)
 
 <details>
 <summary>Can you have two DHCP servers in the same network? How it works?</summary><br><b>
+
+It is possible to have two DHCP servers on the same network, however it is not recommended, and it is important to configure them carefully to prevent conflicts and configuration problems.
+- When two DHCP servers are configured on the same network, there is a risk that both servers will assign IP addresses and other network configuration settings to the same device, which can cause conflicts and connectivity issues. Additionally, if the DHCP servers are configured with different network settings or options, devices on the network may receive conflicting or inconsistent configuration settings.
+- However, in some cases, it may be necessary to have two DHCP servers on the same network, such as in large networks where one DHCP server may not be able to handle all the requests. In such cases, DHCP servers can be configured to serve different IP address ranges or different subnets, so they do not interfere with each other.
 </b></details>
 
 <details>
 <summary>What is SSL tunneling? How does it works?</summary><br><b>
+
+- SSL (Secure Sockets Layer) tunneling is a technique used to establish a secure, encrypted connection between two endpoints over an insecure network, such as the internet. The SSL tunnel is created by encapsulating the traffic within an SSL connection, which provides confidentiality, integrity, and authentication.
+
+Here's how SSL tunneling works:
+
+1. A client initiates an SSL connection to a server, which involves a handshake process to establish the SSL session.
+2. Once the SSL session is established, the client and server negotiate encryption parameters, such as the encryption algorithm and key length, and exchange digital certificates to authenticate each other.
+3. The client then sends traffic through the SSL tunnel to the server, which decrypts the traffic and forwards it to its destination.
+4. The server sends traffic back through the SSL tunnel to the client, which decrypts the traffic and forwards it to the application.
 </b></details>
 
 <details>
 <summary>What is a socket? Where can you see the list of sockets in your system?</summary><br><b>
+
+- A socket is a software endpoint that enables two-way communication between processes over a network. Sockets provide a standardized interface for network communication, allowing applications to send and receive data across a network. To view the list of open sockets on a Linux system: 
+***netstat -an***
+- This command displays a list of all open sockets, along with their protocol, local address, foreign address, and state.
 </b></details>
 
 <details>
 <summary>What is IPv6? Why should we consider using it if we have IPv4?</summary><br><b>
+
+- IPv6 (Internet Protocol version 6) is the latest version of the Internet Protocol (IP), which is used to identify and communicate with devices on a network. IPv6 addresses are 128-bit addresses and are expressed in hexadecimal notation, such as 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
+
+There are several reasons why we should consider using IPv6 over IPv4:
+
+1. Address space: IPv4 has a limited address space, which has been exhausted in many parts of the world. IPv6 provides a much larger address space, allowing for trillions of unique IP addresses..
+2. Security: IPv6 includes built-in support for IPsec, which provides end-to-end encryption and authentication for network traffic.
+3. Performance: IPv6 includes features that can help to improve network performance, such as multicast routing, which allows a single packet to be sent to multiple destinations simultaneously.
+4. Simplified network configuration: IPv6 includes features that can simplify network configuration, such as stateless autoconfiguration, which allows devices to automatically configure their own IPv6 addresses without the need for a DHCP server.
+5. Better mobility support: IPv6 includes features that can improve mobility support, such as Mobile IPv6, which allows devices to maintain their IPv6 addresses as they move between different networks.
 </b></details>
 
 <details>
 <summary>What is VLAN?</summary><br><b>
+
+- A VLAN (Virtual Local Area Network) is a logical network that groups together a set of devices on a physical network, regardless of their physical location. VLANs are created by configuring network switches to assign a specific VLAN ID to frames sent by devices connected to a specific port or group of ports on the switch.
 </b></details>
 
 <details>
@@ -383,14 +432,28 @@ With IPv6 protocol, it issues a error to the user's computer.
 
 <details>
 <summary>True or False?. Ping is using UDP because it doesn't care about reliable connection</summary><br><b>
+
+False. Ping is actually using ICMP (Internet Control Message Protocol) which is a network protocol used to send diagnostic messages and control messages related to network communication.
 </b></details>
 
 <details>
 <summary>What is SDN?</summary><br><b>
+
+- SDN stands for Software-Defined Networking. It is an approach to network management that emphasizes the centralization of network control, enabling administrators to manage network behavior through software abstraction.
+- In a traditional network, network devices such as routers, switches, and firewalls are configured and managed individually, using specialized software or command-line interfaces. In contrast, SDN separates the network control plane from the data plane, allowing administrators to manage network behavior through a centralized software controller.
 </b></details>
 
 <details>
 <summary>What is ICMP? What is it used for?</summary><br><b>
+
+- ICMP stands for Internet Control Message Protocol. It is a protocol used for diagnostic and control purposes in IP networks. It is part of the Internet Protocol suite, operating at the network layer.
+
+ICMP messages are used for a variety of purposes, including:
+1. Error reporting: ICMP messages are used to report errors that occur in the network, such as a packet that could not be delivered to its destination.
+2. Ping: ICMP is used to send ping messages, which are used to test whether a host or network is reachable and to measure the round-trip time for packets.
+3. Path MTU discovery: ICMP is used to discover the Maximum Transmission Unit (MTU) of a path, which is the largest packet size that can be transmitted without fragmentation.
+4. Traceroute: ICMP is used by the traceroute utility to trace the path that packets take through the network.
+5. Router discovery: ICMP is used to discover the routers on a network.
 </b></details>
 
 <details>
@@ -398,10 +461,6 @@ With IPv6 protocol, it issues a error to the user's computer.
 
 NAT stands for network address translation. It’s a way to map multiple local private addresses to a public one before transferring the information. Organizations that want multiple devices to employ a single IP address use NAT, as do most home routers.
 For example, your computer's private IP could be 192.168.1.100, but your router maps the traffic to it's public IP (e.g. 1.1.1.1). Any device on the internet would see the traffic coming from your public IP (1.1.1.1) instead of your private IP (192.168.1.100).
-</b></details>
-
-<details>
-<summary>Which factors affect network performances</summary><br><b>
 </b></details>
 
 <details>
@@ -427,6 +486,17 @@ For example, your computer's private IP could be 192.168.1.100, but your router 
 
 <details>
 <summary>Which factors affect network performances</summary><br><b>
+
+Several factors can affect network performance, including:
+
+1. Bandwidth: The available bandwidth of a network connection can significantly impact its performance. Networks with limited bandwidth can experience slow data transfer rates, high latency, and poor responsiveness.
+2. Latency: Latency refers to the delay that occurs when data is transmitted from one point in a network to another. High latency can result in slow network performance, especially for real-time applications like video conferencing and online gaming.
+3. Network congestion: When too many devices are using a network at the same time, network congestion can occur, leading to slow data transfer rates and poor network performance.
+4. Packet loss: Packet loss occurs when packets of data are dropped during transmission. This can result in slower network speeds and lower overall network performance.
+5. Network topology: The physical layout of a network, including the placement of switches, routers, and other network devices, can impact network performance.
+6. Network protocol: Different network protocols have different performance characteristics, which can impact network performance. For example, TCP is a reliable protocol that can guarantee the delivery of data, but it can also result in slower performance due to the overhead required for error checking and retransmission.
+7. Network security: Security measures such as firewalls and encryption can impact network performance, especially if they require significant processing power or introduce additional latency.
+8. Distance: The physical distance between devices on a network can impact network performance, especially for wireless networks where signal strength and interference can affect connectivity and data transfer rates.
 </b></details>
 
 <details>
@@ -708,7 +778,15 @@ https://www.minitool.com/lib/virtual-memory.html
 </b></details>
 
 <details>
-<summary>What is copy-on-write or shadowing?</summary><br><b>
+<summary>What is copy-on-write?</summary><br><b>
+Copy-on-write (COW) is a resource management concept, with the goal to reduce unnecessary copying of information. It is a concept which is implemented for instance within the POSIX fork syscall, which creates a duplicate process of the calling process.
+
+The idea:
+1. If resources are shared between 2 or more entities (for example shared memory segments between 2 processes) the resources don't need to be copied for every entity, but rather every entity has a READ operation access permission on the shared resource. (the shared segements are marked as read-only) 
+(Think of every entity having a pointer to the location of the shared resource which can be dereferenced to read its value)
+2. If one entity would perform a WRITE operation on a shared resource a problem would arise since the resource also would be permanently changed for ALL other entities sharing it.
+(Think of a process modifying some variables on the stack, or allocatingy some data dynamically on the heap, these changes to the shared resource would also apply for ALL other processes, this is definetly an undesirable behaviour)
+3. As a solution only if a WRITE operation is about to be performed on a shared resource, this resource gets COPIED first and then the changes are applied.
 </b></details>
 
 <details>
@@ -796,60 +874,6 @@ The introduction of virtual machines allowed companies to deploy multiple busine
 
 <details>
 <summary>Do we need virtual machines in the age of containers? Are they still relevant?</summary><br><b>
-</b></details>
-
-## Monitoring
-
-<details>
-<summary>Explain monitoring. What is it? What its goal?</summary><br><b>
-
-Google: "Monitoring is one of the primary means by which service owners keep track of a system’s health and availability".
-</b></details>
-
-<details>
-<summary>What is wrong with the old approach of watching for a specific value and trigger an email/phone alert while value is exceeded?</summary><br><b>
-
-This approach require from a human to always check why the value exceeded and how to handle it while today, it is more effective to notify people only when they need to take an actual action.
-If the issue doesn't require any human intervention, then the problem can be fixed by some processes running in the relevant environment.
-</b></details>
-
-<details>
-<summary>What types of monitoring outputs are you familiar with and/or used in the past?</summary><br><b>
-
-Alerts<br>
-Tickets<br>
-Logging<br>
-</b></details>
-
-<details>
-<summary>What is the difference between infrastructure monitoring and application monitoring? (methods, tools, ...)</summary><br><b>
-</b></details>
-
-### Application Performance Management
-
-<details>
-<summary>What is Application Performance Management?</summary><br><b>
-
-- IT metrics translated into business insights
-- Practices for monitoring applications insights so we can improve performances, reduce issues and improve overall user experience
-</b></details>
-
-<details>
-<summary>Name three aspects of a project you can monitor with APM (e.g. backend)</summary><br><b>
-
-- Frontend
-- Backend
-- Infra
-- ...
-</b></details>
-
-<details>
-<summary>What can be collected/monitored to perform APM monitoring?</summary><br><b>
-
-- Metrics
-- Logs
-- Events
-  Traces
 </b></details>
 
 ## Prometheus
@@ -1249,18 +1273,27 @@ as key-value pair, document-oriented, etc.
 
 <details>
 <summary>What is a document? What is a collection?</summary><br><b>
+
+  * A document is a record in MongoDB, which is stored in BSON (Binary JSON) format and is the basic unit of data in MongoDB.
+  * A collection is a group of related documents stored in a single database in MongoDB.
 </b></details>
 
 <details>
 <summary>What is an aggregator?</summary><br><b>
+
+  * An aggregator is a framework in MongoDB that performs operations on a set of data to return a single computed result.
 </b></details>
 
 <details>
 <summary>What is better? Embedded documents or referenced?</summary><br><b>
+
+  * There is no definitive answer to which is better, it depends on the specific use case and requirements. Some explainations : Embedded documents provide atomic updates, while referenced documents allow for better normalization.
 </b></details>
 
 <details>
 <summary>Have you performed data retrieval optimizations in Mongo? If not, can you think about ways to optimize a slow data retrieval?</summary><br><b>
+
+  * Some ways to optimize data retrieval in MongoDB are: indexing, proper schema design, query optimization and database load balancing.
 </b></details>
 
 ##### Queries
@@ -1275,6 +1308,9 @@ as key-value pair, document-oriented, etc.
 
 <details>
 <summary>What is the difference between find() and find_one()?</code></summary><br><b>
+	
+  * `find()` returns all documents that match the query conditions.
+  * find_one() returns only one document that matches the query conditions (or null if no match is found).
 </b></details>
 
 <details>
@@ -1458,7 +1494,9 @@ When you use a function (`YEAR(purchased_at)`) it has to scan the whole database
   - Keystone</summary><br><b>
 
   * Nova - Manage virtual instances
+  * Neutron - Manage networking by providing Network as a service (NaaS)
   * Cinder - Block Storage
+  * Glance - Manage images for virtual machines and containers (search, get and register)
   * Keystone - Authentication service across the cloud
 </b></details>
 
@@ -1907,6 +1945,8 @@ A list of services and their endpoints
 
 <details>
 <summary>Can you compare Puppet to other configuration management tools? Why did you chose to use Puppet?</summary><br><b>
+
+  * Puppet is often compared to other configuration management tools like Chef, Ansible, SaltStack, and cfengine. The choice to use Puppet often depends on an organization's needs, such as ease of use, scalability, and community support.
 </b></details>
 
 <details>
@@ -1924,10 +1964,14 @@ A list of services and their endpoints
 
 <details>
 <summary>Explain Facter</summary><br><b>
+
+  * Facter is a standalone tool in Puppet that collects information about a system and its configuration, such as the operating system, IP addresses, memory, and network interfaces. This information can be used in Puppet manifests to make decisions about how resources should be managed, and to customize the behavior of Puppet based on the characteristics of the system. Facter is integrated into Puppet, and its facts can be used within Puppet manifests to make decisions about resource management.
 </b></details>
 
 <details>
 <summary>What is MCollective?</summary><br><b>
+
+  * MCollective is a middleware system that integrates with Puppet to provide orchestration, remote execution, and parallel job execution capabilities.
 </b></details>
 
 <details>
@@ -1936,6 +1980,8 @@ A list of services and their endpoints
 
 <details>
 <summary>Explain what is Hiera</summary><br><b>
+
+  * Hiera is a hierarchical data store in Puppet that is used to separate data from code, allowing data to be more easily separated, managed, and reused.
 </b></details>
 
 ## Elastic
@@ -1952,7 +1998,7 @@ The Elastic Stack consists of:
   * Elastic Hadoop
   * APM Server
 
-Elasticserach, Logstash and Kibana are also known as the ELK stack.
+Elasticsearch, Logstash and Kibana are also known as the ELK stack.
 </b></details>
 
 <details>
@@ -2009,7 +2055,7 @@ This is where data is stored and also where different processing takes place (e.
 <details>
 <summary>What is a master node?</summary><br><b>
 
-Par of a master node responsibilites:
+Part of a master node responsibilites:
   * Track the status of all the nodes in the cluster
   * Verify replicas are working and the data is available from every data node.
   * No hot nodes (no data node that works much harder than other nodes)
@@ -2020,17 +2066,22 @@ While there can be multiple master nodes in reality only of them is the elected 
 <details>
 <summary>What is an ingest node?</summary><br><b>
 
-A node which responsible for parsing the data. In case you don't use logstash then this node can recieve data from beats and parse it, similarly to how it can be parsed in Logstash.
+A node which responsible for processing the data according to ingest pipeline. In case you don't need to use 
+logstash then this node can recieve data from beats and process it, similarly to how it can be processed 
+in Logstash.
 </b></details>
 
 <details>
-<summary>What is Coordinating node?</summary><br><b>
+<summary>What is Coordinating only node?</summary><br><b>
 
-A Coordinating node responsible for routing requests out and in to the cluser (data nodes).
+From the official docs:
+
+Coordinating only nodes can benefit large clusters by offloading the coordinating node role from data and master-eligible nodes. They join the cluster and receive the full cluster state, like every other node, and they use the cluster state to route requests directly to the appropriate place(s).
+
 </b></details>
 
 <details>
-<summary>How data is stored in elasticsearch?</summary><br><b>
+<summary>How data is stored in Elasticsearch?</summary><br><b>
 
 * Data is stored in an index
 * The index is spread across the cluster using shards
@@ -2039,7 +2090,7 @@ A Coordinating node responsible for routing requests out and in to the cluser (d
 <details>
 <summary>What is an Index?</summary><br><b>
 
-Index in Elastic is in most cases compared to a whole database from the SQL/NoSQL world.<br>
+Index in Elasticsearch is in most cases compared to a whole database from the SQL/NoSQL world.<br>
 You can choose to have one index to hold all the data of your app or have multiple indices where each index holds different type of your app (e.g. index for each service your app is running).
 
 The official docs also offer a great explanation (in general, it's really good documentation, as every project should have):
@@ -2065,15 +2116,17 @@ From the official docs:
 <details>
 <summary>What is a Document?</summary><br><b>
 
-Continuing with the comparison to SQL/NoSQL a Document in Elastic is a row in table in the case of SQL or a document in a collection in the case of NoSQL.
-As in NoSQL a Document is a JSON object which holds data on a unit in your app. What is this unit depends on the your app. If your app related to book then each document describes a book. If you are app is about shirts then each document is a shirt.
+Continuing with the comparison to SQL/NoSQL a Document in Elasticsearch is a row in table in the case of SQL or a document in a collection in the case of NoSQL.
+As in NoSQL a document is a JSON object which holds data on a unit in your app. What is this unit depends on the your app. If your app related to book then each document describes a book. If you are app is about shirts then each document is a shirt.
 </b></details>
 
 <details>
 <summary>You check the health of your elasticsearch cluster and it's red. What does it mean? What can cause the status to be yellow instead of green?</summary><br><b>
 
-Red means some data is unavailable.
-Yellow can be caused by running single node cluster instead of multi-node.
+Red means some data is unavailable in your cluster. Some shards of your indices are unassinged. 
+There are some other states for the cluster.
+Yellow means that you have unassigned shards in the cluster. You can be in this state if you have single node and your indices have replicas.
+Green means that all shards in the cluster are assigned to nodes and your cluster is healthy. 
 </b></details>
 
 <details>
@@ -3021,164 +3074,6 @@ Not only this will tell you what is expected from you, it will also provide big 
   * Volume Testing
   * Endurance Testing
 </summary><br><b>
-</b></details>
-
-## Databases
-
-|Name|Topic|Objective & Instructions|Solution|Comments|
-|--------|--------|------|----|----|
-| Message Board Tables  | Relational DB Tables | [Exercise](topics/databases/table_for_message_board_system.md) | [Solution](topics/databases/solutions/table_for_message_board_system.md)
-
-<details>
-<summary>What is a relational database?</summary><br><b>
-
-  * Data Storage: system to store data in tables
-  * SQL: programming language to manage relational databases
-  * Data Definition Language: a standard syntax to create, alter and delete tables
-</b></details>
-
-<details>
-<summary>What does it mean when a database is ACID compliant?</summary><br>
-
-ACID stands for Atomicity, Consistency, Isolation, Durability. In order to be ACID compliant, the database must meet each of the four criteria
-
-**Atomicity** - When a change occurs to the database, it should either succeed or fail as a whole.
-
-For example, if you were to update a table, the update should completely execute. If it only partially executes, the
-update is considered failed as a whole, and will not go through - the DB will revert back to it's original
-state before the update occurred. It should also be mentioned that Atomicity ensures that each
-transaction is completed as it's own stand alone "unit" - if any part fails, the whole statement fails.
-
-**Consistency** - any change made to the database should bring it from one valid state into the next.
-
-For example, if you make a change to the DB, it shouldn't corrupt it. Consistency is upheld by checks and constraints that
-are pre-defined in the DB. For example, if you tried to change a value from a string to an int when the column
-should be of datatype string, a consistent DB would not allow this transaction to go through, and the action would
-not be executed
-
-**Isolation** - this ensures that a database will never be seen "mid-update" - as multiple transactions are running at
-the same time, it should still leave the DB in the same state as if the transactions were being run sequentially.
-
-For example, let's say that 20 other people were making changes to the database at the same time. At the
-time you executed your query, 15 of the 20 changes had gone through, but 5 were still in progress. You should
-only see the 15 changes that had completed - you wouldn't see the database mid-update as the change goes through.
-
-**Durability** - Once a change is committed, it will remain committed regardless of what happens
-(power failure, system crash, etc.). This means that all completed transactions
-must be recorded in non-volatile memory.
-
-Note that SQL is by nature ACID compliant. Certain NoSQL DB's can be ACID compliant depending on
-how they operate, but as a general rule of thumb, NoSQL DB's are not considered ACID compliant
-</details>
-
-<details>
-<summary>What is sharding?</summary><br><b>
-
-Sharding is a horizontal partitioning.
-
-Are you able to explain what is it good for?
-</b></details>
-
-<details>
-<summary>You find out your database became a bottleneck and users experience issues accessing data. How can you deal with such situation?</summary><br><b>
-
-Not much information provided as to why it became a bottleneck and what is current architecture, so one general approach could be<br>
-to reduce the load on your database by moving frequently-accessed data to in-memory structure.
-</b></details>
-
-<details>
-<summary>What is a connection pool?</summary><br><b>
-
-Connection Pool is a cache of database connections and the reason it's used is to avoid an overhead of establishing a connection for every query done to a database.
-</b></details>
-
-<details>
-<summary>What is a connection leak?</summary><br><b>
-
-A connection leak is a situation where database connection isn't closed after being created and is no longer needed.
-</b></details>
-
-<details>
-<summary>What is Table Lock?</summary><br><b>
-</b></details>
-
-<details>
-<summary>Your database performs slowly than usual. More specifically, your queries are taking a lot of time. What would you do?</summary><br><b>
-
-* Query for running queries and cancel the irrelevant queries
-* Check for connection leaks (query for running connections and include their IP)
-* Check for table locks and kill irrelevant locking sessions
-</b></details>
-
-<details>
-<summary>What is a Data Warehouse?</summary><br><b>
-
-"A data warehouse is a subject-oriented, integrated, time-variant and non-volatile collection of data in support of organisation's decision-making process"
-</b></details>
-
-<details>
-<summary>Explain what is a time-series database</summary><br><b>
-</b></details>
-
-<details>
-<summary>What is OLTP (Online transaction processing)?</summary><br><b>
-</b></details>
-
-<details>
-<summary>What is OLAP (Online Analytical Processing)?</summary><br><b>
-</b></details>
-
-<details>
-<summary>What is an index in a database?</summary><br><b>
-
-A database index is a data structure that improves the speed of operations in a table. Indexes can be created using one or more columns, providing the basis for both rapid random lookups and efficient ordering of access to records.
-</b></details>
-
-<details>
-<summary>What data types are there in relational databases?</summary><br><b>
-</b></details>
-
-<details>
-<summary>Explain Normalization</summary><br><b>
-
-Data that is used multiple times in a database should be stored once and referenced with a foreign key.<br>
-This has the clear benefit of ease of maintenance where you need to change a value only in a single place to change it everywhere.
-</b></details>
-
-<details>
-<summary>Explain Primary Key and Foreign Key</summary><br><b>
-
-Primary Key: each row in every table should a unique identifier that represents the row.<br>
-Foreign Key: a reference to another table's primary key. This allows you to join table together to retrieve all the information you need without duplicating data.
-</b></details>
-
-<details>
-<summary>What types of data tables have you used?</summary><br><b>
-
-  * Primary data table: main data you care about
-  * Details table: includes a foreign key and has one to many relationship
-  * Lookup values table: can be one table per lookup or a table containing all the lookups and has one to many relationship
-  * Multi reference table
-</b></details>
-
-<details>
-<summary>What is ORM? What benefits it provides in regards to relational databases usage?</summary><br><b>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping): "is a programming technique for converting data between incompatible type systems using object-oriented programming languages"
-
-In regards to the relational databases:
-
-  * Database as code
-  * Database abstraction
-  * Encapsulates SQL complexity
-  * Enables code review process
-  * Enables usage as a native OOP structure
-</b></details>
-
-<details>
-<summary>What is DDL?</summary><br><b>
-
-[Wikipedia](https://en.wikipedia.org/wiki/Data_definition_language): "In the context of SQL, data definition or data description language (DDL) is a syntax for creating and modifying database objects such as tables, indices, and users."
 </b></details>
 
 ## Regex
